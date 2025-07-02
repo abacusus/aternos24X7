@@ -3,20 +3,34 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
+import os
 
-# Setup Chrome options (optional)
+
 options = Options()
-options.add_argument("--start-maximized")
-options.add_argument("--incognito")
 
-# Start Chrome with the correct driver
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+user_data_path = os.path.join(os.getcwd(), "chrome_user_data")
+options.add_argument(f"--user-data-dir={user_data_path}")
+options.add_argument('--disk-cache-size=1048576')  # Limit to 1MB (1MB = 1024*1024)
 
-# Open a webpage to test
-driver.get("https://www.google.com")
 
-# Wait a few seconds
-time.sleep(25)
 
-# Close the browser
+#options.add_argument("--headless")       # Uncomment this to run Chrome in headless mode (no UI)
+
+# Launch Chrome using WebDriver Manager
+driver = webdriver.Chrome(
+    service=Service(ChromeDriverManager().install()),
+    options=options
+)
+
+# Open the target website
+def script():
+    driver.get("https://aternos.org/server/")
+    time.sleep(5) 
+    driver.execute_script("document.getElementById('start').click();")
+    time.sleep(5)  
+ 
+
+
+
+#  Close the browser
 driver.quit()
