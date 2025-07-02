@@ -1,13 +1,17 @@
 from selenium import webdriver
-from flask import Flask, render_template, request, redirect,jsonify
+from flask_cors import CORS
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 import os
+from flask import Flask, jsonify
 
 app = Flask(__name__)
+CORS(app)
+@app.route('/trigger', methods=['GET'])
+
 
 def script():
  options = Options()
@@ -36,19 +40,8 @@ def script():
  button.click()
    
  driver.quit()
- return "Script executed"
-
-
-
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/run-script', methods=['GET'])
-def run_script():
-    result = script()
-    return jsonify({"status": result})
+ print("Script has been triggered!")
+ return jsonify({"status": "Script executed!"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
