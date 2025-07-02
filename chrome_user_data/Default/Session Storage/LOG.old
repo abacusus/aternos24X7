@@ -1,6 +1,8 @@
-2025/07/02-18:54:49.402 a4c Reusing MANIFEST C:\Users\Home\Desktop\TECHSTUFF\pythonwebdriver\chrome_user_data\Default\Session Storage/MANIFEST-000001
-2025/07/02-18:54:49.411 a4c Recovering log #3
-2025/07/02-18:54:49.417 a4c Reusing old log C:\Users\Home\Desktop\TECHSTUFF\pythonwebdriver\chrome_user_data\Default\Session Storage/000003.log 
-2025/07/02-18:54:52.650 39bc Level-0 table #5: started
-2025/07/02-18:54:52.667 39bc Level-0 table #5: 10809 bytes OK
-2025/07/02-18:54:52.678 39bc Delete type=0 #3
+2025/07/02-19:54:59.428 2bec Reusing MANIFEST C:\Users\Home\Desktop\TECHSTUFF\pythonwebdriver\chrome_user_data\Default\Session Storage/MANIFEST-000001
+2025/07/02-19:54:59.430 2bec Recovering log #4
+2025/07/02-19:54:59.430 2bec Level-0 table #7: started
+2025/07/02-19:54:59.440 2bec Level-0 table #7: 10856 bytes OK
+2025/07/02-19:54:59.440 2bec Recovering log #7
+2025/07/02-19:54:59.444 2bec Reusing old log C:\Users\Home\Desktop\TECHSTUFF\pythonwebdriver\chrome_user_data\Default\Session Storage/000007.log 
+2025/07/02-19:54:59.456 2bec Delete type=0 #4
+2025/07/02-19:54:59.456 2bec Delete type=2 #8
