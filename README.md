@@ -26,15 +26,16 @@ This is a **Python automation script** that helps keep your [Aternos](https://at
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/yourusername/aternos-24x7.git
 cd aternos-24x7
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the main script
 python app.py
+```
+### setup a new account with a server
+### after setting up start your minecraft server 
+### now re run app.py  , keep your script running in order to make your server 24X7
 
 
 
