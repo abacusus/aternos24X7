@@ -30,6 +30,11 @@ This is a **Python automation script** that helps keep your [Aternos](https://at
 ```bash
 git clone https://github.com/yourusername/aternos-24x7.git
 cd aternos-24x7
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the main script
+python app.py
 
 
 
