@@ -33,7 +33,8 @@ cd aternos-24x7
 pip install -r requirements.txt
 python app.py
 ```
-### Setup a new account with a server
+### Running app.py will open a new chrome window
+### Setup a new account with a server in the chrome window
 ### After setting up start your minecraft server 
 ### Now re run app.py  , Keep your script running in order to make your server 24X7
 
