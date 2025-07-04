@@ -1,7 +1,46 @@
-[11040:7680:0702/195948.896:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
-[13660:12484:0702/195949.043:WARNING:ui\gl\direct_composition_support.cc:1167] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
-[11040:7680:0702/195950.796:INFO:CONSOLE:1] " CC >> [venatus] reward video init", source: https://assets.aternos.org/assets/panel/js/dist/server-ac6dc407485a6d2c.js (1)
-[11040:7680:0702/195951.619:INFO:CONSOLE:1] "CC >> loading [object Object]", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
-[11040:7680:0702/195952.742:INFO:CONSOLE:1] "CC >> empty [object Object]", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
-[7100:1932:0702/195955.291:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[7100:1932:0702/195955.291:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[4260:13916:0704/114943.053:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[11768:6264:0704/114943.230:WARNING:ui\gl\direct_composition_support.cc:1167] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[4260:13916:0704/114944.625:INFO:CONSOLE:1] " CC >> [venatus] reward video init", source: https://assets.aternos.org/assets/panel/js/dist/server-ac6dc407485a6d2c.js (1)
+[4260:13916:0704/114945.280:INFO:CONSOLE:1] "CC >> loading [object Object]", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
+[4260:13916:0704/114946.607:INFO:CONSOLE:1] "CC >> empty [object Object]", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
+[4260:13916:0704/114946.802:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/114946.909:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/114946.951:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/114949.909:INFO:CONSOLE:16] "Called iframe: pa.openx.net  
+Number of topics:  0", source: https://pa.openx.net/topics_frame.html?bidder=openx (16)
+[11460:13480:0704/114950.984:ERROR:net\socket\ssl_client_socket_impl.cc:878] handshake failed; returned -1, SSL error code 1, net_error -101
+[4260:13916:0704/114951.527:INFO:CONSOLE:1] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
+[4260:10860:0704/114954.141:ERROR:components\system_cpu\cpu_probe_win.cc:112] PdhAddEnglishCounter failed for '\Processor(_Total)\% Processor Time': Error (0x13D) while retrieving error. (0xC0000BB8)
+[4260:2776:0704/114954.141:ERROR:components\system_cpu\cpu_probe_win.cc:112] PdhAddEnglishCounter failed for '\Processor(_Total)\% Processor Time': Error (0x13D) while retrieving error. (0xC0000BB8)
+[4260:13916:0704/114956.788:INFO:CONSOLE:26] "[GPT] Interstitial /21726375739,21668746256/VM_6051eb8e337bfd28970d5989 not requested: Format already created on the page.
+https://goo.gle/gpt-message#134", source: https://yzqtxpscxhkg6rzje.ay.delivery/test/client-venatus.js (26)
+[4260:13916:0704/114957.059:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/114957.186:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/114957.263:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:10860:0704/114958.051:ERROR:components\system_cpu\cpu_probe_win.cc:112] PdhAddEnglishCounter failed for '\Processor(_Total)\% Processor Time': Error (0x13D) while retrieving error. (0xC0000BB8)
+[4260:13916:0704/114959.387:INFO:CONSOLE:16] "Called iframe: pa.openx.net  
+Number of topics:  0", source: https://pa.openx.net/topics_frame.html?bidder=openx (16)
+[11460:13480:0704/114959.522:WARNING:net\spdy\spdy_session.cc:3009] Received WINDOW_UPDATE for invalid stream 7
+[11460:13480:0704/114959.525:WARNING:net\spdy\spdy_session.cc:3054] Received HEADERS for invalid stream 3
+[11460:13480:0704/114959.529:WARNING:net\spdy\spdy_session.cc:3054] Received HEADERS for invalid stream 7
+[11460:13480:0704/114959.535:WARNING:net\spdy\spdy_session.cc:3009] Received WINDOW_UPDATE for invalid stream 9
+[11460:13480:0704/114959.541:WARNING:net\spdy\spdy_session.cc:3054] Received HEADERS for invalid stream 9
+[11460:13480:0704/114959.541:WARNING:net\spdy\spdy_session.cc:3009] Received WINDOW_UPDATE for invalid stream 5
+[11460:13480:0704/114959.546:WARNING:net\spdy\spdy_session.cc:3054] Received HEADERS for invalid stream 5
+[11460:13480:0704/114959.546:WARNING:net\spdy\spdy_session.cc:3054] Received HEADERS for invalid stream 5
+[11460:13480:0704/114959.550:WARNING:net\spdy\spdy_session.cc:3009] Received WINDOW_UPDATE for invalid stream 3
+[4260:13916:0704/115000.127:INFO:CONSOLE:1] " CC >> [venatus] reward video init", source: https://assets.aternos.org/assets/panel/js/dist/server-ac6dc407485a6d2c.js (1)
+[4260:13916:0704/115000.479:INFO:CONSOLE:1] "CC >> loading [object Object]", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
+[4260:13916:0704/115001.373:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/115001.374:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/115001.375:INFO:CONSOLE:0] "Access to fetch at 'https://prebid.ad.smaato.net/oapi/prebid' from origin 'https://aternos.org' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.", source: https://aternos.org/server/ (0)
+[4260:13916:0704/115001.827:INFO:CONSOLE:1] "CC >> empty [object Object]", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
+[4260:13916:0704/115002.578:INFO:CONSOLE:20] "Called iframe: ads.pubmatic.com  
+Number of topics:  0", source: https://ads.pubmatic.com/AdServer/js/topics/topics_frame.html?bidder=pubmatic (20)
+[4260:13916:0704/115003.827:INFO:CONSOLE:1] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://cadmus.script.ac/d1oykxszdrgjgl/script.js (1)
+[11460:13480:0704/115007.945:ERROR:net\socket\ssl_client_socket_impl.cc:878] handshake failed; returned -1, SSL error code 1, net_error -101
+[11460:13480:0704/115008.262:ERROR:net\socket\ssl_client_socket_impl.cc:878] handshake failed; returned -1, SSL error code 1, net_error -101
+[9020:11824:0704/115008.851:WARNING:services\audio\sync_reader.cc:148] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[11460:12408:0704/115010.130:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[11460:12208:0704/115010.143:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[11460:12208:0704/115010.143:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

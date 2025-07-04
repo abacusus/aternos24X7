@@ -4,44 +4,43 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 import os
-from flask import Flask, jsonify
-
-app = Flask(__name__)
-CORS(app)
-@app.route('/trigger', methods=['GET'])
 
 
-def script():
- options = Options()
+options = Options()
 
- user_data_path = os.path.join(os.getcwd(), "chrome_user_data")
- options.add_argument(f"--user-data-dir={user_data_path}")
- options.add_argument('--disk-cache-size=1048576')  # Limit to 1MB (1MB = 1024*1024)
+user_data_path = os.path.join(os.getcwd(), "chrome_user_data")
+options.add_argument(f"--user-data-dir={user_data_path}")
+options.add_argument('--disk-cache-size=1048576')  # Limit to 1MB (1MB = 1024*1024)
 
-
-
- #options.add_argument("--headless")       # Uncomment this to run Chrome in headless mode (no UI)
+#options.add_argument("--headless=new")       # Uncomment this to run Chrome in headless mode (no UI)
 
 # Launch Chrome using WebDriver Manager
- driver = webdriver.Chrome(
- service=Service(ChromeDriverManager().install()),
- options=options
+driver = webdriver.Chrome(
+    service=Service(ChromeDriverManager().install()),
+    options=options
 )
-
+def script():
+ print("Script has started running...")
 # Open the target website
- 
-
  driver.get("https://aternos.org/server/")
- driver.minimize_window()
- 
- button = driver.find_element(By.ID, "start")
+ print("Opened the Aternos server page.")
+ button = WebDriverWait(driver, 615).until(
+    EC.element_to_be_clickable((By.CSS_SELECTOR, ".btn.btn-tiny.btn-success.server-extend-end"))
+ )
  button.click()
-   
- driver.quit()
- print("Script has been triggered!")
- return jsonify({"status": "Script executed!"})
+ print("Button found, clicking it...")
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+
+
+ script()
+ print("recursion called...")
+
+ 
+ driver.quit()
+ print("Driver quit, script finished.")
+script()
+
