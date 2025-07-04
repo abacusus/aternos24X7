@@ -28,14 +28,14 @@ This is a **Python automation script** that helps keep your [Aternos](https://at
 
 
 ```bash
-git clone https://github.com/yourusername/aternos-24x7.git
+git clone https://github.com/abacusus/aternos-24x7.git
 cd aternos-24x7
 pip install -r requirements.txt
 python app.py
 ```
-### setup a new account with a server
-### after setting up start your minecraft server 
-### now re run app.py  , keep your script running in order to make your server 24X7
+### Setup a new account with a server
+### After setting up start your minecraft server 
+### Now re run app.py  , Keep your script running in order to make your server 24X7
 
 
 
