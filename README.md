@@ -1,12 +1,35 @@
-#PYTHON SCRIPT TO KEEP ATERNOS SERVER 24X7
-###This is a python script for running your aternos (minecraft server hosting) server 24X7,but there's a catch this script will only run on your local machine
-or hosting which supports script running with GUI ( i didnt found one ).
+# 🕹️ Aternos Server 24/7 Script
 
-#How to setup
- clone the repo or download from zip file
- run pip install requirements.txt in terminal
- run app.py
- new chrome window will open
- ##you need to first setup a new account with a server in order to make it 24 X 7 inside the chrome window
- after setting up the server you just need to start the server and keep the script running
+This is a **Python automation script** that helps keep your [Aternos](https://aternos.org) Minecraft server **running 24/7** — by using +1 minute feature provided by the aternos .
+
+> ⚠️ This script **only works on your local machine** or on a GUI-supported host (e.g., a cloud desktop service). It **does not** work on headless servers (like Replit, Heroku, or most VPS without GUI).
+
+---
+
+## Feel free to ask if any issue occurs 
+
+## 🚀 Features
+
+- Keeps your  Aternos server 24X7.
+- Uses Selenium with Chrome to simulate real user interactions.
+- Simple and beginner-friendly setup.
+
+---
+
+## 📦 Requirements
+
+- Python 3.8+
+- Google Chrome installed
+- `chromedriver` auto-managed by `webdriver-manager`
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/aternos-24x7.git
+cd aternos-24x7
+
+
 
